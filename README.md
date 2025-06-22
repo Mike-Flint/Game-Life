@@ -41,10 +41,10 @@
 
 ```sh
 git clone https://github.com/Mike-Flint/Game-Life.git
-cd Game-Live
+cd Game-Life
 cmake -B Build -S . -G "Visual Studio 17 2022" -A x64
 cmake --build Build --config Release
-Build\Release\GameLive.exe
+Build\Release\GameLife.exe
 ```
 
 ---
