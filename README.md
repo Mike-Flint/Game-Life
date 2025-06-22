@@ -47,8 +47,6 @@ cmake --build Build --config Release
 Build\Release\GameLive.exe
 ```
 
-Run `GameLive.exe` from `Release`.
-
 ---
 
 ## 🖼️ Example
