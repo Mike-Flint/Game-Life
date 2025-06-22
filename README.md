@@ -1,6 +1,6 @@
-# 🕹️ GameLive
+# 🕹️ GameLife
 
-**GameLive** is a Windows desktop application for interactive simulation and editing with Conway’s Game of Life.
+**GameLife** is a Windows desktop application for interactive simulation and editing with Conway’s Game of Life.
 
 ---
 
@@ -33,20 +33,19 @@
 
 ### For Users
 
-1. [Download the latest release](https://github.com/Mike-Flint/GameLive/releases)
+1. [Download the latest release](https://github.com/Mike-Flint/Game-Life/releases)
 2. Unzip the archive
 3. Run `GameLive.exe`
 
 ### For Developers
 
 ```sh
-git clone https://github.com/Mike-Flint/GameLive.git
-cd GameLive
+git clone https://github.com/Mike-Flint/Game-Life.git
+cd Game-Live
 cmake -B Build -S . -G "Visual Studio 17 2022" -A x64
 cmake --build Build --config Release
+Build\Release\GameLive.exe
 ```
-
-Run `GameLive.exe` from `Release`.
 
 ---
 
